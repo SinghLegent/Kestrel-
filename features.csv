@@ -1,0 +1,44 @@
+feature,area,priority,original,clone,notes
+Start an instant meeting and get a share link,meeting,must,yes,yes,Covered by test/e2e*.py
+Join a meeting by code or link with a display name,meeting,must,yes,yes,Covered by test/e2e*.py
+Pre-join screen with camera and mic preview and device pick,meeting,must,yes,yes,Covered by test/e2e*.py
+Live video and audio between participants,meeting,must,yes,yes,Covered by test/e2e*.py
+Mute and unmute own mic and camera,meeting,must,yes,yes,Covered by test/e2e*.py
+Gallery grid layout with active speaker highlight,meeting,must,yes,yes,Covered by test/e2e*.py
+Pin or spotlight one participant,meeting,should,yes,yes,Covered by test/e2e*.py
+Participants panel with roles,meeting,must,yes,yes,Covered by test/e2e*.py
+In-meeting chat to everyone,chat,must,yes,yes,Covered by test/e2e*.py
+Private chat to one participant,chat,should,yes,yes,Covered by test/e2e*.py
+Reactions and raise hand,engagement,should,yes,yes,Covered by test/e2e*.py
+Screen sharing,sharing,must,yes,yes,Covered by test/e2e*.py
+Host controls: mute one or all participants,host controls,must,yes,yes,Covered by test/e2e*.py
+Host controls: remove a participant,host controls,must,yes,yes,Covered by test/e2e*.py
+Host controls: lock the meeting,host controls,must,yes,yes,Covered by test/e2e*.py
+Host controls: allow or block screen share and chat,host controls,should,yes,yes,Covered by test/e2e*.py
+Assign and remove co-hosts,host controls,should,yes,yes,Covered by test/e2e*.py
+Waiting room with admit and deny,host controls,must,yes,yes,Covered by test/e2e*.py
+Meeting passcode,security,should,yes,yes,Covered by test/e2e*.py
+Schedule a meeting with title time and duration,scheduling,must,yes,yes,Covered by test/e2e*.py
+Calendar invite file (.ics) and invite link,scheduling,should,yes,yes,Covered by test/e2e*.py
+List of upcoming meetings,scheduling,should,yes,partial,"Listed per browser (localStorage), no account sync"
+Local recording with notice to participants,recording,must,yes,yes,Covered by test/e2e*.py
+Polls created by the host and answered live,engagement,should,yes,yes,Covered by test/e2e*.py
+Breakout rooms: create and assign participants,breakouts,must,yes,yes,Covered by test/e2e*.py
+Breakout rooms: broadcast message and close all,breakouts,should,yes,yes,Covered by test/e2e*.py
+Breakout rooms: ask host for help,breakouts,could,yes,yes,Covered by test/e2e*.py
+Webinar mode: host panelists and view-only attendees,webinar,must,yes,yes,Covered by test/e2e*.py
+Webinar Q&A: attendees ask and panelists answer,webinar,should,yes,yes,Covered by test/e2e*.py
+Webinar: attendee raise hand and host unmute,webinar,should,yes,partial,Hand raise + promote to panelist work; browsers do not allow forced unmute
+Webinar: registration form with approval,webinar,could,yes,no,Not built
+Webinar: practice session,webinar,could,yes,no,Not built
+Whiteboard,sharing,could,yes,no,Not built
+Virtual backgrounds,video,could,yes,no,Not built
+Live captions and transcripts,accessibility,could,yes,no,Not built
+Cloud recording with auto transcript,recording,could,yes,no,Not built
+User accounts and sign-in,accounts,should,yes,no,Not built
+Meetings of 100 or more participants,scale,could,yes,no,Not built
+Third-party streaming (RTMP),scale,could,yes,no,Not built
+Phone dial-in,telephony,could,yes,no,Not built
+AI meeting summaries,ai,could,yes,no,Not built
+Zoom Phone and Zoom Rooms hardware,licensed,could,yes,skip,Proprietary products and hardware - out of scope
+Apps marketplace and integrations network,licensed,could,yes,skip,Their network and partners - not a feature to clone

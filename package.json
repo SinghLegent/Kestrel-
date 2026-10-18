@@ -1,0 +1,15 @@
+{
+  "name": "kestrel-meet-livekit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
+  "dependencies": {
+    "@livekit/components-react": "^2.6.0",
+    "@livekit/components-styles": "^1.1.0",
+    "livekit-client": "^2.5.0",
+    "livekit-server-sdk": "^2.7.0",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
